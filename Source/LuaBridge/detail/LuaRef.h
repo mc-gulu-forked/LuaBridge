@@ -38,7 +38,7 @@
         ...
         t ["k"] = Nil(); // assign nil
 */
-struct Nil
+struct Nul
 {
 };
 
