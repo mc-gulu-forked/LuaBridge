@@ -1124,10 +1124,10 @@ private:
     Stack specialization for Nil
 */
 template <>
-struct Stack <Nil>
+struct Stack <Nul>
 {
 public:
-  static inline void push (lua_State* L, Nil)
+  static inline void push (lua_State* L, Nul)
   {
     lua_pushnil (L);
   }
